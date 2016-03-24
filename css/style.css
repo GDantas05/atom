@@ -1,0 +1,179 @@
+/* BOTÃO VOLTAR AO TOPO */
+.back_top {
+	position: fixed;
+	right: 25px;
+	bottom: 15px;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 0.8em;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	display: none;
+}
+
+.back_top:hover {
+	background: #09f;
+}
+
+/* MENU DE NAVEGAÇÃO */
+.main_menu {
+	width: auto;
+	margin-top: 35px;
+}
+
+.main_menu li {
+	float: left;
+}
+
+.main_menu a {
+	float: left;
+	padding: 12px 16px;
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.main_menu a:hover {
+	color: #3b6ab1;
+}
+
+.main_header_fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	border-bottom: 2px solid #ccc;
+	z-index: 99;
+}
+
+/* BANNER */
+.banner {
+	height: 600px;
+	background-color: rgba(0, 0, 0, 0.2);
+	background-image: url(../img/banner.jpg);
+	background-size: cover; /* ACOMPANHA O TAMANHO DA TELA*/
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #fff;
+}
+
+.banner .texto-banner {
+	margin-top: 15px;
+	width: 40%;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.banner .orcamento {
+	margin-top: 15px;
+}
+
+/* SERVICOS */
+.servicos .titulo-servicos {
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.servicos .principal {
+	margin-bottom: 8px;
+}
+
+.borda {
+	border-top: 5px solid #3b6ab1;
+	width: 60px;
+	margin: 0 auto 30px auto;
+}
+
+.detalhes {
+	background: #eaeaea;
+}
+
+.detalhes ul {
+	margin-top: 50px;
+}
+
+.detalhes-nav li {
+	text-align: left;
+	padding: 25px 0;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.detalhes-nav img {
+	margin-right: 3%;
+}
+
+/* CONTATO */
+.contato {
+	background-color: #303031;
+}
+
+.contato h1, .contato .tagline {
+	color: #fff;
+}
+
+.contato h1 {
+	font-weight: 400;
+}
+
+.contato .tagline {
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.contato input,
+.contato textarea {
+	width: 100%;
+	background: #fff;
+	border: none;
+	padding: 10px;
+	font-family: 'Arial', sans-serif;
+	text-transform: uppercase;
+
+}
+
+.contato label {
+	margin-bottom: 0;
+}
+
+.contato textarea {
+	margin-bottom: 10px;
+}
+
+.borda-contato {
+	margin: 0 auto 10px auto;
+}
+
+/* RODAPE */
+.rodape {
+	background-color: #3b6ab1;
+	padding-top: 15px;
+}
+
+.navegacao_rodape {
+	float: right;
+}
+
+.navegacao_rodape li {
+	display: inline-block;
+	color: #f2f5fa;
+	padding-right: 5%;
+}
+
+.navegacao_rodape a {
+	color: #f2f5fa;
+	text-decoration: none;
+}
+
+.navegacao_rodape .redes_sociais {
+	float: right;
+	padding-right: 2px;
+	margin-top: -3px;
+}
+
+.copy {
+	color: #f2f5fa;
+}

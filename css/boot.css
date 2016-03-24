@@ -1,0 +1,372 @@
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+
+	line-height: 1.2;
+	letter-spacing: 0em;
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {background: #fbfbfb;}
+h1 {font-size: 2em; font-weight: 300;}
+.tagline {font-size: 1.8em; font-weight: 400; margin-bottom: 0;} /* SUBSTITUI O H2 */
+h3 {font-size: 1.5em; font-weight: 500;}
+p {margin-bottom: 15px;}
+p:last-child{margin-bottom: 0;}
+b, strong {font-weight: bold;}
+mark {padding: 5px 10px; background-color: #eee;}
+ul {list-style: none;}
+img {border: none; max-width: 100%; vertical-align: middle;}
+a img {border: 0;} /* FUNCIONA PARA O IE - TIRA A BORDA QUE O NAVEGADOR COLOCA AUTOMATICAMENTE NA IMAGEM PARA INDICAR QUE É UM LINK */
+a { text-decoration: none; }
+
+/* FORMS */
+label {
+	display: block;
+	margin-bottom: 15px;
+}
+
+input {
+	padding: 10px;
+	border: 1px #ccc solid;
+	width: 100%;
+}
+
+/* BACKGROUND */
+.bg-gray {
+	background-color: #444444;
+	color: #fff;
+}
+
+.bg-light {
+	background-color: #E6E3D9;
+	color: #444;
+}
+
+.bg-blue {
+	background-color: #34495e;
+	color: #fff;
+}
+
+.bg-blue-light {
+	background-color: #CCD8D1;
+	color: #444;
+}
+
+.bg-orange {
+	background-color: #E16F4D;
+	color: #fff;
+}
+
+.bg-body {
+	background-color: #FBFBFB;
+	color: #333;
+}
+
+/* FONT WEIGHT */
+.font100 { font-weight: 100 !important; }
+.font300 { font-weight: 300 !important; }
+.font400 { font-weight: 400 !important; }
+.font700 { font-weight: 700 !important; }
+
+/* FONT SIZE */
+.fontzero   { font-size: 0em !important;}
+.fontsize1  { font-size: 1em;}
+.fontzero1b { font-size: 1.5em;}
+.fontsize2  { font-size: 2em;}
+.fontzero2b { font-size: 2.5em;}
+.fontsize3  { font-size: 3em;}
+.fontzero3b { font-size: 3.5em;}
+
+/* CONTAINER */
+.container {
+	float: left;
+	width: 100%;
+}
+
+.content {
+	width: 80%;
+	margin: 0 10%;
+	padding: 40px 0;
+}
+
+.content-menu {
+	padding: 10px 0;
+}
+
+.content-page {
+	padding: 60px 0;
+}
+
+.section-title {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.section-title h1 {
+	font-size: 2em;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.section-title .tagline {
+	font-size: 1.4em;
+	font-weight: 300;
+}
+
+.section-title-nomargin, .article-title-nomargin {
+	margin: 0;
+}
+
+.article-title {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.article-title h1 {
+	font-size: 1.8em;
+	margin-bottom: 2px;
+}
+
+.article-title .tagline {
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+/* HELPERS */
+.text-shadow {
+	text-shadow: 1px 1px 0 #ccc;
+}
+
+.box-shadow {
+	box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);
+}
+
+.radius {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.icone-radius {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.last {
+	margin-right: 0 !important;
+}
+
+.first {
+	margin-top: 35px !important;
+}
+
+.clear {
+	clear: both;
+}
+
+/* text align */
+.al-left   {text-align: left;}
+.al-right  {text-align: right;}
+.al-center {text-align: center;}
+
+/* float */
+.fl-left  {float: left;}
+.fl-right {float: right;}
+.fl-none  {float: none;}
+
+/* display */
+.ds-block   {display: block;}
+.ds-inblock {display: inline-block;}
+.ds-inline  {display: inline;}
+.ds-none    {display: none;}
+
+/* BOX */
+.box {
+	width: auto;
+	float: left;
+}
+
+.box-line {
+	width: 100%;
+	float: left;
+}
+
+.box-small {
+	width: 22.75%;
+	margin-right: 3%;
+}
+
+.box-medium {
+	width: 30%;
+	margin-right: 5%;
+}
+
+.box-large {
+	width: 46.5%;
+	margin-right: 7%;
+}
+
+.box-large-contato {
+	width: 48.5%;
+	margin-right: 3%;
+}
+
+.box-full {
+	width: 100%;
+	margin: 0;
+}
+
+/* VIDEO */
+.vga {
+	width: 100%;
+	margin: 0;
+}
+
+.vga-small {
+	width: 40%;
+	margin: 0 30%;
+}
+
+.vga-medium {
+	width: 60%;
+	margin: 0 20%;
+}
+
+.vga-large {
+	width: 80%;
+	margin: 0 10%;
+}
+
+/* BOTÕES */
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	background: #333;
+	border: 1px solid #222;
+	font-size: 1em;
+	font-weight: 400;
+	cursor: pointer;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover {
+	text-decoration: none !important;
+}
+
+.btn-big {
+	font-size: 1.8em;
+	padding: 20px 40px;
+}
+
+.btn-green {
+	background-color: #59ab66;
+	border-color: #4b9157;
+}
+
+.btn-green:hover {
+	background-color: #66c475;
+	border-color: #59ab66;
+}
+
+.btn-orange {
+	background-color: #df9810;
+	border-color: #dc9713;
+}
+
+.btn-orange:hover {
+	background-color: #f6a915;
+	border-color: #df9810;
+}
+
+.btn-red {
+	background-color: #e70202;
+	border-color: #d50101;
+}
+
+.btn-red:hover {
+	background-color: #c50101;
+	border-color: #e70202;
+}
+
+.btn-blue {
+	background-color: #3b6ab1;
+}
+
+.btn-blue:hover {
+	background-color: #4376c3;
+}
+
+/* TRIGGERS */
+.alert {
+	float: left;
+	width: 100%;
+	padding: 25px;
+	font-size: 1.2em;
+	margin-bottom: 30px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.875em;
+}
+
+.alert-bottom {
+	margin: 30px 0 0 0;
+}
+
+.alert-green        { background-color: #59ab66;}
+.alert-green:hover  { background-color: #66c475;}
+.alert-orange       { background-color: #df9810;}
+.alert-orange:hover { background-color: #f6a915;}
+.alert-red          { background-color: #e70202;}
+.alert-red:hover    { background-color: #c50101;}
+
+/* SHORT ICONS */
+.shorticon {
+	padding-left: 6%;
+	background-position: center left;
+	background-repeat: no-repeat;
+	/*background-size: auto 96%;*/
+}
+
+.shorticon-full {
+	padding-left: 3%;
+}
+
+.shorticon-section-title {
+	padding-left: 60px;
+}
+
+.short-icon-facebook { background-image: url(boot/sociais/facebook.png);}
+.short-icon-google   { background-image: url(boot/sociais/google.png);}
+.short-icon-twitter  { background-image: url(boot/sociais/twitter.png);}
+
+.short-icon-config  { background-image: url(boot/icons/config.png);}
+.short-icon-mail    { background-image: url(boot/icons/mail.png);}
+.short-icon-section { background-image: url(boot/icons/section.png);}
+
+.short-icon-negocio      { background-image: url(../img/negocio.png);}
+.short-icon-visibilidade { background-image: url(../img/visibilidade.png);}
+.short-icon-smartphone   { background-image: url(../img/smartphone.png);}
+
+
+
+
+
+
